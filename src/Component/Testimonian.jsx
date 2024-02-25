@@ -3,9 +3,14 @@ import React from 'react';
 import Img from "../assets/img/testimonial-1.jpg"
 import Img2 from "../assets/img/testimonial-2.jpg"
 import Img3 from "../assets/img/testimonial-3.jpg"
+import Header from "../Layout/Header.jsx";
+
+import Footer from "../Layout/Footer.jsx";
 const Testimonian = () => {
     return (
         <div>
+            <Header />
+
             <div className="container-fluid py-5" id="testimonial">
                 <div className="container">
                     <div className="position-relative d-flex align-items-center justify-content-center">
@@ -51,6 +56,8 @@ const Testimonian = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </div>
     );
 };

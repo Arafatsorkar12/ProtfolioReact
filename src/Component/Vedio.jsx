@@ -1,9 +1,15 @@
 import React from 'react';
 
 import images from "../assets/img/profile.jpg"
+import Footer from "../Layout/Footer.jsx";
+import Header from "../Layout/Header.jsx";
 const Vedio = () => {
     return (
         <div>
+            <Header/>
+            <br/>
+            <br/>
+            <br/>
             <div className="modal fade" id="videoModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel"
                  aria-hidden="true">
                 <div className="modal-dialog" role="document">
@@ -24,17 +30,18 @@ const Vedio = () => {
 
 
             <div className="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home"
-                 >
+            >
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
                             <img className="img-fluid w-100 rounded-circle shadow-sm" src={images} alt=""/>
                         </div>
                         <div className="col-lg-7 text-center text-lg-left">
-                            <h3 className="text-white font-weight-normal mb-3">I m Kate Winslet Web Designer, Web Developer, Front End Developer, Apps
+                            <h3 className="text-white font-weight-normal mb-3">I m Kate Winslet Web Designer, Web
+                                Developer, Front End Developer, Apps
                                 Designer, Apps Developer</h3>
                             <h1 className="display-3 text-uppercase text-primary mb-2"
-                                 >Kate Winslet</h1>
+                            >Kate Winslet</h1>
                             <h1 className="typed-text-output d-inline font-weight-lighter text-white"></h1>
                             <div className="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps
                                 Designer, Apps Developer
@@ -52,6 +59,7 @@ const Vedio = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
 
 

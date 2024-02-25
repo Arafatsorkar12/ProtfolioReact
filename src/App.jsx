@@ -1,8 +1,6 @@
 
 import './App.css'
-import Home from "./Payges/Home.jsx";
-import Header from "./Layout/Header.jsx";
-import Footer from "./Layout/Footer.jsx";
+
 import "./assets/css/style.css";
 import "./assets/css/style.min.css";
 import "./assets/css/icone.css";
@@ -17,6 +15,7 @@ import "./assets/js/isotope.pkgd.min.js"
 import "./assets/js/jqBootstrapValidation.min.js"
 import "./assets/js/contact.js"
 import "./assets/js/main.js"
+import React_router_dom from "./React_router_dom.jsx";
 
 
 
@@ -29,9 +28,9 @@ function App() {
   return (
     <>
 
-<Header />
-<Home />
-<Footer />
+
+        <React_router_dom/>
+
     </>
   )
 }

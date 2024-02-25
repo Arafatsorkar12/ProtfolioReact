@@ -1,8 +1,13 @@
 import React from 'react';
 import Image from "../assets/img/about.jpg"
+import Header from "../Layout/Header.jsx";
+
+import Footer from "../Layout/Footer.jsx";
 const About = () => {
     return (
         <div>
+            <Header />
+
             <div className="container-fluid py-5" id="about">
                 <div className="container">
                     <div className="position-relative d-flex align-items-center justify-content-center">
@@ -42,6 +47,8 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </div>
     );
 };

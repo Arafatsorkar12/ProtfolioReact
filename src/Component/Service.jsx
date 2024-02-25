@@ -1,8 +1,13 @@
 import React from 'react';
 import "../assets/css/icone.css";
+import Header from "../Layout/Header.jsx";
+
+import Footer from "../Layout/Footer.jsx";
 const Service = () => {
     return (
         <div>
+            <Header />
+
             <div className="container-fluid pt-5" id="service">
                 <div className="container">
                     <div className="position-relative d-flex align-items-center justify-content-center">
@@ -68,6 +73,8 @@ const Service = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </div>
     );
 };

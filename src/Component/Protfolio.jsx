@@ -6,9 +6,14 @@ import img13 from "../assets/img/portfolio-3.jpg"
 import img14 from "../assets/img/portfolio-4.jpg"
 import img15 from "../assets/img/portfolio-5.jpg"
 import img16 from "../assets/img/portfolio-6.jpg"
+import Header from "../Layout/Header.jsx";
+
+import Footer from "../Layout/Footer.jsx";
 const Protfolio = () => {
     return (
         <div>
+            <Header />
+
             <div className="container-fluid pt-5 pb-3" id="portfolio">
                 <div className="container">
                     <div className="position-relative d-flex align-items-center justify-content-center">
@@ -97,6 +102,8 @@ const Protfolio = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </div>
     );
 };

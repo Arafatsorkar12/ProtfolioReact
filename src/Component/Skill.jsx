@@ -1,8 +1,13 @@
 import React from 'react';
+import Header from "../Layout/Header.jsx";
+
+import Footer from "../Layout/Footer.jsx";
 
 const Skill = () => {
     return (
         <div>
+            <Header />
+
             <div className="container-fluid py-5" id="skill">
                 <div className="container">
                     <div className="position-relative d-flex align-items-center justify-content-center">
@@ -78,6 +83,8 @@ const Skill = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </div>
     );
 };
