@@ -22,8 +22,8 @@ const React_router_dom = () => {
                     <Route path='/Skill' element={<Skill />} />
                     <Route path='/Service' element={<Service />} />
                     <Route path='/Portfolio' element={<Portfolio />} />
-                    <Route path='/Review' element={<Review />} />
-                    <Route path='/Blog' element={<Blog />} />
+                    {/* <Route path='/Review' element={<Review />} /> */}
+                    {/* <Route path='/Blog' element={<Blog />} /> */}
                     <Route path='/Contact' element={<Contact />} />
                     {/*<Route path='*' element={<Errorpage />} />*/}
                 </Routes>

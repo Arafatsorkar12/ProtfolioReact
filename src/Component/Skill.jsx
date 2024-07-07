@@ -52,7 +52,7 @@ const Skill = () => {
                             <div className="skill mb-4">
                                 <div className="d-flex justify-content-between">
                                     <h6 className="font-weight-bold">Javascript</h6>
-                                    <h6 className="font-weight-bold">90%</h6>
+                                    <h6 className="font-weight-bold">60%</h6>
                                 </div>
                                 <div className="progress">
                                     <div className="progress-bar bg-danger" role="progressbar" aria-valuenow="90"
@@ -61,8 +61,8 @@ const Skill = () => {
                             </div>
                             <div className="skill mb-4">
                                 <div className="d-flex justify-content-between">
-                                    <h6 className="font-weight-bold">Angular JS</h6>
-                                    <h6 className="font-weight-bold">95%</h6>
+                                    <h6 className="font-weight-bold">React JS</h6>
+                                    <h6 className="font-weight-bold">40%</h6>
                                 </div>
                                 <div className="progress">
                                     <div className="progress-bar bg-dark" role="progressbar" aria-valuenow="95"
@@ -71,8 +71,8 @@ const Skill = () => {
                             </div>
                             <div className="skill mb-4">
                                 <div className="d-flex justify-content-between">
-                                    <h6 className="font-weight-bold">Wordpress</h6>
-                                    <h6 className="font-weight-bold">85%</h6>
+                                    <h6 className="font-weight-bold">Laravel</h6>
+                                    <h6 className="font-weight-bold">95%</h6>
                                 </div>
                                 <div className="progress">
                                     <div className="progress-bar bg-info" role="progressbar" aria-valuenow="85"

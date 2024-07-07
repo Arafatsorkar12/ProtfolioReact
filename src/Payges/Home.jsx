@@ -13,15 +13,15 @@ const Home = () => {
     return (
         <div>
 
-            {/*<Vedio/>*/}
-            {/*<About/>*/}
-            {/*<Expereince/>*/}
-            {/*<Skill/>*/}
-            {/*<Service/>*/}
-            {/*<Protfolio/>*/}
-            {/*<Testimonian/>*/}
-            {/*<Blog/>*/}
-            {/*<Content/>*/}
+            {/* <Vedio/>
+            <About/>
+            <Expereince/>
+            <Skill/>
+            <Service/>
+            <Protfolio/>
+            <Testimonian/>
+            <Blog/>
+            <Content/> */}
         </div>
     );
 };

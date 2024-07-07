@@ -1,6 +1,6 @@
 import React from 'react';
 
-import images from "../assets/img/profile.jpg"
+import images from "../assets/img/135411260.jpeg"
 import Footer from "../Layout/Footer.jsx";
 import Header from "../Layout/Header.jsx";
 const Vedio = () => {
@@ -37,14 +37,14 @@ const Vedio = () => {
                             <img className="img-fluid w-100 rounded-circle shadow-sm" src={images} alt=""/>
                         </div>
                         <div className="col-lg-7 text-center text-lg-left">
-                            <h3 className="text-white font-weight-normal mb-3">I m Kate Winslet Web Designer, Web
-                                Developer, Front End Developer, Apps
-                                Designer, Apps Developer</h3>
+                            <h3 className="text-white font-weight-normal mb-3">I m Arafat Sorkar  Web
+                                Developer, </h3>
+                                <br />
+                                <h5>I love using my skills to bring creative ideas to life. I love coding and I'm always eager to learn more about new technologies and trends in the web development world. I'm a firm believer in clean, maintainable code and always strive to write code that is not only functional, but also easy to read and understand. Thanks for reading !</h5>
                             <h1 className="display-3 text-uppercase text-primary mb-2"
                             >Kate Winslet</h1>
                             <h1 className="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                            <div className="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps
-                                Designer, Apps Developer
+                            <div className="typed-text d-none"> 
                             </div>
                             <div
                                 className="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
